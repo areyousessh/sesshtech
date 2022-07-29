@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-black-200;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+}
