@@ -1,6 +1,6 @@
 import { Header } from "../components/header"
 import { ColoredHalfCircleYellow } from "../components/ColoredHalfCircleYellow"
-`import { ColoredHalfCircleGrey } from "../components/ColoredHalfCircleGrey"`
+
 
 export function Home() {
   
@@ -43,7 +43,7 @@ export function Home() {
 
           <div className="flex flex-1 justify-center">
             <ColoredHalfCircleYellow/>
-            <img src="../src/assets/sessh-chibi.png" alt="sessh chibi figure" className="absolute" />
+            <img src="../public/sessh-chibi.png" alt="sessh chibi figure" className="absolute" />
           </div>
         </div>
       </div>

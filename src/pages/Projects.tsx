@@ -13,7 +13,7 @@ export function Projects() {
                 <span className="flex border-t-2 mt-20 w-96 justify-center border-orange-100 " />
                 <div>
                     <a href="https://github.com/areyousessh/nbbarbershop" target="blank">
-                        <img src="../src/assets/nblogo.png" alt="Newboss barbershop logo" className="hover:"/>        
+                        <img src="../public/nblogo.png" alt="Newboss barbershop logo" className="hover:"/>        
                     </a>
                 </div>
                 <p className="text-white-200">
@@ -29,7 +29,7 @@ export function Projects() {
 
                 <div>
                     <a href="https://github.com/areyousessh/gameplay" target="blank">
-                        <img src="../src/assets/cover.png" alt="Newboss barbershop logo" className="w-80 h-44 mt-28"/>        
+                        <img src="../public/cover.png" alt="Newboss barbershop logo" className="w-80 h-44 mt-28"/>        
                     </a>
                 </div>
                 <p className="text-white-200 mt-20">
@@ -42,7 +42,7 @@ export function Projects() {
 
                 <div>
                     <a href="https://jbrifas.com" target="blank">
-                        <img src="../src/assets/logojb.png" alt="Newboss barbershop logo" className="bg-white-100 mt-28"/>        
+                        <img src="../public/logojb.png" alt="Newboss barbershop logo" className="bg-white-100 mt-28"/>        
                     </a>
                 </div>
                 <p className="text-white-200 mt-20">
