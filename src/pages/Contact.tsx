@@ -1,4 +1,7 @@
 import { Header } from "../components/header";
+import Gitlogo from "../../public/Octocat.png"
+import InLogo from "../../public/inlogo.png"
+import MailLogo from "../../public/mail.png"
 
 export function Contact() {
     return(
@@ -14,19 +17,19 @@ export function Contact() {
 
                 <div className="flex">
                     <a href="https://github.com/areyousessh">
-                        <img src="../public/Octocat.png" alt="github octocat logo" className="w-16 h-16" />
+                        <img src={Gitlogo} alt="github octocat logo" className="w-16 h-16" />
                     </a>
                         <span className="text-white-200 mt-5 font-semibold">/areyousessh</span>
                 </div>
                 <div className="flex">
                     <a href="https://www.linkedin.com/in/gustavo-alves-7a57a7122/">
-                        <img src="../public/inlogo.png" alt="Linkeding logo" className="w-16 h-12 mt-12 ml-24" />
+                        <img src={InLogo} alt="Linkeding logo" className="w-16 h-12 mt-12 ml-24" />
                     </a>
                         <span className="text-white-200 mt-16 font-semibold">/gustavo-alves-7a57a7122</span>
                 </div>
                 <div className="flex">
                     <a href="mailto:gusalves@sessh.tech">
-                        <img src="../public/mail.png" alt="Mail logo" className="w-20 h-14 mt-12 ml-24 " />
+                        <img src={MailLogo} alt="Mail logo" className="w-20 h-14 mt-12 ml-24 " />
                     </a>
                         <span className="text-white-200 mt-16 mr-10 font-semibold">gusalves@sessh.tech</span>
                 </div>

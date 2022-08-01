@@ -1,5 +1,6 @@
 import { Header } from "../components/header"
 import { ColoredHalfCircleYellow } from "../components/ColoredHalfCircleYellow"
+import Sesshchibi from "../../public/sessh-chibi.png"
 
 
 export function Home() {
@@ -26,10 +27,10 @@ export function Home() {
           </p>
           <div className="flex flex-1 items-center ">
             <div className="flex justify-center items-center mt-16 ml-96 w-36 h-10 bg-gradient-to-r from-orange-200 to-orange-100 border-4 rounded-lg hover:border-orange-200 transition-colors">
-              <a className="text-white-200 font-bold" href="#">Download CV</a>
+              <a className="text-white-200 font-bold" href="https://bit.ly/3BA37bl">Download CV</a>
             </div>
             <div className="flex  justify-center items-center mt-16 ml-24 w-36 h-10 bg-gradient-to-r from-grey-200 to-grey-100 hover:border-grey-200 transition-colors border-4 rounded-lg ">
-              <a className="text-white-200 font-bold" href="#">Get in Touch</a>
+              <a className="text-white-200 font-bold" href="https://bit.ly/3BvJWPS">Get in Touch</a>
             </div>
           </div>
               
@@ -43,7 +44,7 @@ export function Home() {
 
           <div className="flex flex-1 justify-center">
             <ColoredHalfCircleYellow/>
-            <img src="../public/sessh-chibi.png" alt="sessh chibi figure" className="absolute" />
+            <img src={Sesshchibi} alt="sessh chibi figure" className="absolute" />
           </div>
         </div>
       </div>

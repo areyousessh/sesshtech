@@ -1,5 +1,6 @@
 
 import { Header } from "../components/header";
+import SesshProfile from "../../public/sessh-profile.jpeg"
 
 export function About() {
     return(
@@ -13,7 +14,7 @@ export function About() {
                     </span>
                 <span className="flex border-t-2 mt-24 w-96 justify-center border-orange-100" />
                 <div className="flex flex-1 mt-20">
-                    <img src="../public/sessh-profile.jpeg" alt="gustavo sessh foto perfil" 
+                    <img src={SesshProfile} alt="gustavo sessh foto perfil" 
                     className="w-32 h-32 rounded-full "/>
                     <p className="text-grey-100 pl-3 leading-7">
                         Gustavo Henrique Alves, 26 years old and front-end / mobile<br />
