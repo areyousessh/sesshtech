@@ -13,13 +13,13 @@ export function Projects() {
                             Projects
                         </h1>
                     </span>
-                <span className="flex border-t-2 mt-20 w-96 justify-center border-orange-100 " />
+                <span className="flex border-t-2 mt-12 sm:mt-20 lg:mt-20 w-96 justify-center border-orange-100 " />
                 <div>
                     <a href="https://github.com/areyousessh/nbbarbershop" target="blank">
                         <img src={NBLogo} alt="Newboss barbershop logo" className="hover:"/>        
                     </a>
                 </div>
-                <p className="text-white-200">
+                <p className="text-white-200 pl-2 sm:pl-0 lg:pl-0">
                     A Newboss Barbershop é uma barbearia localizada no bairro Santa Mena em Guarulhos da qual sou cliente <br />
                     e fui contratado para criar um aplicativo com a finalidade de realizar o agendamento de horarios dos clientes <br />
                     e notificar os usuarios de futuros eventos que vão acontecer no estabelecimento. <br />
@@ -32,10 +32,10 @@ export function Projects() {
 
                 <div>
                     <a href="https://github.com/areyousessh/gameplay" target="blank">
-                        <img src={GPLogo} alt="Newboss barbershop logo" className="w-80 h-44 mt-28"/>        
+                        <img src={GPLogo} alt="Newboss barbershop logo" className="w-80 h-44 mt-14 sm:mt-28 lg:mt-28"/>        
                     </a>
                 </div>
-                <p className="text-white-200 mt-20">
+                <p className="text-white-200 mt-14 sm:mt-20">
                     Gameplay foi um aplicativo móvel criado em um workshop de 5 dias da Rocketseat ministrado pelo dev Rodrigo Gonçalves. <br />
                     Também criado em React Native e usando o Expo Bareworkflow foi um projeto muito legal e de muito aprendizado, aprendi mais <br />
                     sobre estrutura de projeto, hooks, componentizaçãp, context, estilos globais e muito mais. <br />
@@ -45,10 +45,10 @@ export function Projects() {
 
                 <div>
                     <a href="https://jbrifas.com" target="blank">
-                        <img src={JBLogo} alt="Newboss barbershop logo" className="bg-white-100 mt-28"/>        
+                        <img src={JBLogo} alt="Newboss barbershop logo" className="bg-white-100 mt-14 sm:mt-28 lg:mt-28"/>        
                     </a>
                 </div>
-                <p className="text-white-200 mt-20">
+                <p className="text-white-200 mt-14 sm:mt-20 lg:mt-20 mb-14 sm:mb-0 lg:mb-0">
                     O Site JB Rifas foi um projeto mais recente que resolvi criar com 2 sócios que não são devs. É um site <br />
                     de rifas que criamos para tentar gerar renda extra, foi uma experiencia totalmente nova pois era necessário ter <br />
                     baixo custo e ser feito rápido me levando a utilizar wordpress pela primeira vez. <br />

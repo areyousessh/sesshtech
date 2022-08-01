@@ -12,10 +12,10 @@ export function About() {
                             About
                         </h1>
                     </span>
-                <span className="flex border-t-2 mt-24 w-96 justify-center border-orange-100" />
-                <div className="flex flex-1 mt-20">
+                <span className="flex border-t-2 mt-10 sm:mt-24 lg:mt-24 w-96 justify-center border-orange-100" />
+                <div className="flex flex-1 mt-12 sm:mt-20 lg:mt-20">
                     <img src={SesshProfile} alt="gustavo sessh foto perfil" 
-                    className="w-32 h-32 rounded-full "/>
+                    className="w-28 sm:w-32 lg:w-32 h-28 sm:h-32 lg-h32 rounded-full "/>
                     <p className="text-grey-100 pl-3 leading-7">
                         Gustavo Henrique Alves, 26 years old and front-end / mobile<br />
                         developer for 6 years. Passionate for create, give life to ideas<br />

@@ -13,7 +13,7 @@ export function Contact() {
               Contact
             </h1>
           </span>
-            <span className="flex border-t-2 mt-20 mb-28 w-96 justify-center border-orange-100 " />
+            <span className="flex border-t-2 mt-12 sm:mt-20 lg:mt-20 mb-14 sm:mb-28 lg:mb-28 w-96 justify-center border-orange-100 " />
 
                 <div className="flex">
                     <a href="https://github.com/areyousessh">
