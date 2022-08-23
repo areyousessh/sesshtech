@@ -1,4 +1,4 @@
-![Logo}(https://github.com/areyousessh/sesshtech/blob/main/public/sessh-chibi.png?raw=true)
+![Logo](https://github.com/areyousessh/sesshtech/blob/main/public/sessh-chibi.png?raw=true)
 
 
 # Sessh Tech (Portfólio)
