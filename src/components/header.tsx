@@ -20,6 +20,9 @@ export function Header() {
                     <li className="pr-5 sm:pr-10 lg:pr-10">
                         <Link to="/Contact" className="text-white-200 font-thin">Contact</Link>
                     </li>
+                    <li className="pr-5 sm:pr-10 lg:pr-10">
+                        <Link to="/Setup" className="text-white-200 font-thin">Setup</Link>
+                    </li>
                 </ul>
             </div>
         </div>
